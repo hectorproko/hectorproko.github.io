@@ -1,31 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Projects</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>My Projects</h1>
-  </header>
-  
-  <main>
-    <section>
-      <h2>CI/CD Jenkins</h2>
-      <p><a href="Full_Project_9_URL">Project 9</a></p>
-      <p><a href="Full_Project_14_URL">Project 14</a></p>
-    </section>
-    
-    <section>
-      <h2>AWS</h2>
-      <p><a href="Full_Project_15_URL">Project 15</a></p>
-    </section>
-    
-    <!-- Add sections for other projects -->
-  </main>
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+        <p>This is a simple webpage hosted on GitHub Pages.</p>
+    </header>
 
-  <footer>
-    <p>&copy; 2023 Your Name</p>
-  </footer>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm [Your Name], a software developer from [Your Location]. I specialize in [Your Specialties]. 
+                This page is a small showcase of my work and interests.
+            </p>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <p>
+                Here are some of the projects I've been working on. Feel free to explore.
+                <ul>
+                    <li><a href="[Project1 Link]">Project 1</a></li>
+                    <li><a href="[Project2 Link]">Project 2</a></li>
+                </ul>
+            </p>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <p>You can reach me via <a href="mailto:your-email@example.com">email</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created with ♥ by [Your Name].</p>
+    </footer>
 </body>
 </html>
